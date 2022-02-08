@@ -1,0 +1,355 @@
+
+body {
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+}
+
+
+ /* Navbar */
+ .navbar{
+    padding: 20px;
+  }
+  .active{
+    font-size: 0.8em;
+  }
+.navbar-brand {
+position: absolute;
+right: 50%;
+top: 0;
+bottom: 0;
+font-family: 'Covered By Your Grace', cursive;
+padding: 20px;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: smaller !important;
+}
+
+.nav-item{
+margin-right: 15px;
+}
+
+.fa-user-o{
+margin: 8px 20px 0;
+}
+.fa-heart-o{
+margin-top: 8px;
+}
+.fa-shopping-basket{
+margin: 8px 20px 0;
+}
+
+
+/* Hero Carousel */
+
+.carousel{
+    top: 75px;
+}
+
+.col-hero{
+    text-align: center;
+    font-size: larger;
+}
+.hero-tag{
+    margin-top: 10%;
+}
+
+
+.carousel-item{
+    height: 400px;
+    text-align: center;
+}
+.hero-image{
+    height: 400px;
+}
+
+.hero-text-div{
+    position: relative;
+    bottom: 130px;
+    left: 400px;
+    text-align: left;
+    
+}
+.hero-text{
+    font-size: 30px;
+    font-weight: lighter;
+    
+}
+.btn-shop{
+    position: relative;
+    top: 70px ;
+}
+
+.carousel-indicators{
+    top: 380px;
+}
+
+
+@media screen and (max-width: 576px) {
+    /* Navbar */
+    .search-needed{
+        display: none !important;
+    }
+    .navbar-nav{
+        padding-left: 0 !important;
+    }
+    .navbar-brand{
+        left: 40%;
+    }
+    .fa-search{
+        color: black;
+        margin: 8px 10px 0;
+    }
+    .fa-heart-o{
+        margin: 8px 10px 0;
+        color: red;
+        }
+    .fa-user-o{
+        margin: 8px 10px 0;
+        color: yellow;
+        }
+    .fa-shopping-basket{
+        margin: 8px 10px 0;
+        color: yellowgreen;
+        }
+    
+
+    .form-new{
+        width: 150px !important;
+        position: relative;
+        left: 30px;
+        bottom: 7px;
+    }
+    
+
+
+    /* Carousel */
+
+    .Hero{
+        padding-top: 100px;
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .carousel-item{
+        height: 200px;
+    }
+    .hero-image{
+        height: 200px;
+    }
+
+    .hero-text-div{
+        position: relative;
+        bottom: 85px;
+        left: 100px;
+        text-align: left;
+    }
+    .hero-text{
+        font-size: 16px;
+        font-weight: lighter;
+        position: relative;
+        top: 15px;
+    }
+    .btn-shop{
+        position: relative;
+        top: 30px ;
+    }
+    
+    .carousel-indicators{
+        top: 190px;
+    }
+  }
+
+  @media screen and (min-width:577px) {
+
+    .fa-search{
+        display: hidden; 
+    }
+    
+    .form-hide{
+        display: hidden;
+    }
+
+    .form-new{
+        display: none !important;
+    }
+
+  }
+
+
+  /* Winter Sales */
+
+  .winter-sales-pitch{
+      position: relative;
+      top: 90px;
+      text-align: center;
+      background-color: burlywood;
+  }
+  .winter-sales-images{
+      position: relative;
+      top: 50px;
+  }
+  .winter{
+      width: 40% !important;
+  }
+
+  .slider {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    top: 83px;
+  }
+  .slides {
+    height: 600px;
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    border-radius: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .slides::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+    width: 10px;
+  }
+  .slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .slidE{
+      margin: 5px 20px;
+  }
+  .slide-image{
+  width: 400px;
+  height: 600px;
+  }
+  .btn{
+      margin: 10px 0;
+  }
+
+  @media screen and (max-width: 576px) {
+      .slide-image{
+          width: 133px;
+          height: 200px;
+      }
+      .slides{
+          width: 100%;
+          height: 270px;
+      }
+      .slider{
+          height: 270px;
+      }
+  }
+
+
+  /* Popular Sales */
+
+#Popular-Sales{
+    position: relative;
+    top: 90px;
+}
+
+.popular-sales{
+    margin: 20px 0 20px 20px;
+}
+
+.container{
+    width: 100%;
+}
+.col{
+    margin-right: px;
+}
+
+
+/* Shoes */
+#Shoes{
+    position: relative;
+    top: 70px;
+}
+
+.shoe-sales{
+    position: relative;
+    top: 50px;
+    margin: 20px 0 20px 20px;
+}
+
+.btn-see-more{
+    position: relative;
+    top: 50%;
+}
+
+/* Explore more Items */
+
+#Explore{
+    position: relative;
+    top: 130px;
+}
+
+.explore-items{
+    position: relative;
+    top: 50px;
+    margin: 20px 0 60px 20px;
+}
+
+
+/* Footer */
+
+
+#Footer {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-top{
+    margin-top: 20px;
+}
+
+.footer-copyright {
+    margin-top: 13px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #777a7c;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.fa-facebook-f {
+    color: #3b5999;
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
+.fa-youtube {
+    color: #cd201f;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.logo-footer {
+    height: 30px;
+}
+
+.footer-copyright p {
+    margin-top: 10px;
+}

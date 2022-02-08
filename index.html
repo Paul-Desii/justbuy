@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/36da653704.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=EB+Garamond:wght@486&family=Montserrat:wght@700&family=Open+Sans+Condensed:wght@300&family=PT+Serif:wght@700&family=Work+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <title>justBuy</title>
+  </head>
+<body>
+     <!-- Navbar -->
+
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">justBuy</a>
+            </div>
+            <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Man
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Clothes</a></li>
+                        <li><a class="dropdown-item" href="#">Shoes</a></li>
+                        <li><a class="dropdown-item" href="#">Fitness</a></li>
+                        <li><a class="dropdown-item" href="#">Trending</a></li>
+                        <li><a class="dropdown-item" href="#">Explore</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Woman
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Clothes</a></li>
+                        <li><a class="dropdown-item" href="#">Shoes</a></li>
+                        <li><a class="dropdown-item" href="#">Fitness</a></li>
+                        <li><a class="dropdown-item" href="#">Trending</a></li>
+                        <li><a class="dropdown-item" href="#">Explore</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Kids
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Clothes</a></li>
+                      <li><a class="dropdown-item" href="#">Shoes</a></li>
+                      <li><a class="dropdown-item" href="#">Trending</a></li>
+                    </ul>
+                  </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" id="navbarDropdown">Winter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" id="navbarDropdown">Lifestyle</a>
+                </li>
+              </ul>
+                <form class="d-flex search-needed">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i><i class="fa fa-user-o" aria-hidden="true"></i><input class="form-control me-2 fa" type="search" placeholder="&#xf002; Search" aria-label=""><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                  </form>
+              
+            </div>
+            <div class="form-new d-flex" style="width: 50%;" >
+              <i class="fas fa-search"></i><i class="fa fa-heart-o" aria-hidden="true"></i><i class="fa fa-user-o" aria-hidden="true"></i><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Hero Image Carousel -->
+    <section id="Hero-Image-Carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              </div>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-touch="true">
+                <div>
+                  <img src="Hero Images\Winter.jpg" class="hero-image" alt="...">
+                </div>
+                <div class="hero-text-div">
+                  <p class="hero-text">W for Winter</p>
+                  <button type="button" class="btn btn-sm btn-outline-primary">Shop</button>
+                </div>
+                  
+              </div>
+
+              <div class="carousel-item" data-bs-touch="true">
+                <div>
+                  <img src="Hero Images\Baby.jpg" class="hero-image" alt="">
+                </div>
+                <div class="hero-text-div">
+                  <p class="hero-text" style="color: azure;">Expectant?</p>
+                  <button type="button" class="btn btn-outline-primary btn-sm">Shop</button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-touch="true">
+                <div>
+                  <img src="Hero Images\The Denims you love.jpg" class="hero-image" alt="">
+                </div>
+                <div class="hero-text-div">
+                  <p class="hero-text" >The denims you love</p>
+                  <button type="button" class="btn btn-outline-primary btn-sm">Shop</button>
+                </div>
+              </div>
+            
+              <div class="carousel-item" data-bs-touch="true">
+                <div>
+                  <img src="Hero Images\Stick to your resolution.jpg" class="hero-image" alt="">
+                </div>
+                <div class="hero-text-div">
+                  <p class="hero-text" style="color: azure;">Stick to your resolution</p>
+                  <button type="button" class="btn btn-outline-primary btn-sm">Shop</button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-touch="true">
+                <div>
+                  <img src="Hero Images\Match your confidence.jpg" class="hero-image" alt="">
+                </div>
+                <div class="hero-text-div">
+                  <p class="hero-text">Match your confidence</p>
+                  <button type="button" class="btn btn-outline-primary btn-sm">Shop</button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-touch="true">
+                <div>
+                  <img src="Hero Images\Match your taste.jpg" class="hero-image" alt="">
+                </div>
+                <div class="hero-text-div">
+                  <p class="hero-text">Match your taste</p>
+                  <button type="button" class="btn btn-outline-primary btn-sm">Shop</button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-touch="true">
+                <div>
+                  <img src="Hero Images\Shoes to fit in.jpg" class="hero-image" alt="">
+                </div>
+                <div class="hero-text-div">
+                  <p class="hero-text">Shoes to fit in</p>
+                  <button type="button" class="btn btn-outline-primary btn-sm">Shop</button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-touch="true">
+                <div>
+                  <img src="Hero Images\Shop.jpg" class="hero-image" alt="">
+                </div>
+                <div class="hero-text-div">
+                  <button type="button" class="btn btn-primary btn-sm btn-shop">Shop</button>
+                </div>
+              </div>
+
+            </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+        <section id="Winter-Sales" class="winter-sales">
+            <div>
+                <div class="winter-sales-pitch">
+                    <h3>Save up to 30% on our</h3>
+                    <h4>Winter Sales</h4>
+                  </div>
+            </div>
+
+        <div class="slider">
+          
+            <div class="slides">
+              <div class="slidE" id="slide-1"><figure><img src="Images-Catalogue\Winter\Cuddle up.jpg" class="slide-image" alt=""><figcaption><button type="button" class="btn btn-outline-primary btn-sm">Cuddle up</button></figcaption></figure></div>
+              <div class="slidE" id="slide-2"><figure><img src="Images-Catalogue\Winter\Gid up.jpg" class="slide-image" alt=""><figcaption><button type="button" class="btn btn-outline-primary btn-sm">Kit up</button></div>
+              <div class="slidE" id="slide-3"><figure><img src="Images-Catalogue\Winter\PlayFully.jpg" class="slide-image" alt=""><figcaption><button type="button" class="btn btn-outline-primary btn-sm">PlayFully</button></figcaption></figure></div>
+              <div class="slidE" id="slide-4"><figure><img src="Images-Catalogue\Winter\Winter is family.jpg" class="slide-image" alt=""><figcaption></figcaption><button type="button" class="btn btn-outline-primary btn-sm">Winter is family</button></figure></div>
+              <div class="slidE" id="slide-5"><figure><img src="Images-Catalogue\Winter\Winter is Love.jpg" class="slide-image" alt=""><figcaption></figcaption><button type="button" class="btn btn-outline-primary btn-sm">Winter is Love</button></figure></div>
+              <div class="slidE" id="slide-6"><figure><img src="Images-Catalogue\Winter\Winter is red.jpg" class="slide-image" alt=""><figcaption><button type="button" class="btn btn-outline-primary btn-sm">Winter is red</button></figcaption></figure></div>
+              <div class="slidE see-more" id="slide-7"><button type="button" class="btn btn-outline-primary btn-sm btn-see-more">See more</button></div>
+            </div>
+            
+          </div>
+
+    </section>
+          
+
+    <section id="Popular-Sales">
+            <div class="popular-sales">
+                <h3>Popular Sales</h3>
+            </div>
+
+            <div class="popular-sales-images">
+                <div class="container">
+                    <div class="row">
+                      <div class="col col-lg-3 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Images-Catalogue\Hoodie\Hoodie (7).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"></h5>
+                              <a href="#" class="btn btn-primary">See More</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col col-lg-3 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Images-Catalogue\Hoodie\Hoodie (9).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"></h5>
+                              <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col col-lg-3 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Images-Catalogue\Denim\Denim (10).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"></h5>
+                              <a href="#" class="btn btn-primary">See More</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col col-lg-3 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Images-Catalogue\Africans\African (10).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"></h5>
+                              <a href="#" class="btn btn-primary">Buy More</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+    </section>
+
+    <section id="Shoes">
+        <div class="shoe-sales">
+            <h3>Shoes</h3>
+        </div>
+
+        <div class="slider">
+          
+            <div class="slides">
+              <div class="slidE" id="slide-1"><figure><img src="Images-Catalogue\Shoes\Shoes (18).jpg" class="slide-image" alt=""><figcaption><button type="button" class="btn btn-outline-primary btn-sm">Add to cart</button></figcaption></figure></div>
+              <div class="slidE" id="slide-2"><figure><img src="Images-Catalogue\Shoes\Shoes (5).jpg" class="slide-image" alt=""><figcaption><button type="button" class="btn btn-outline-primary btn-sm">Add to cart</button></div>
+              <div class="slidE" id="slide-3"><figure><img src="Images-Catalogue\Shoes\Shoes (7).jpg" class="slide-image" alt=""><figcaption><button type="button" class="btn btn-outline-primary btn-sm">Add to cart</button></figcaption></figure></div>
+              <div class="slidE" id="slide-4"><figure><img src="Images-Catalogue\Shoes\Shoes (6).jpg" class="slide-image" alt=""><figcaption></figcaption><button type="button" class="btn btn-outline-primary btn-sm">Add to cart</button></figure></div>
+              <div class="slidE" id="slide-5"><figure><img src="Images-Catalogue\Shoes\Shoes (13).jpg" class="slide-image" alt=""><figcaption></figcaption><button type="button" class="btn btn-outline-primary btn-sm">Add to Kart</button></figure></div>
+              <div class="slidE" id="slide-6"><figure><img src="Images-Catalogue\Shoes\Shoes (25).jpg" class="slide-image" alt=""><figcaption><button type="button" class="btn btn-outline-primary btn-sm">Add to Kart</button></figcaption></figure></div>
+              <div class="slidE see-more" id="slide-7"><button type="button" class="btn btn-outline-primary btn-sm btn-see-more">See more</button></div>
+            </div>
+            
+          </div>
+
+    </section>
+
+    <Section id="Explore">
+        <div class="explore-items">
+            <h3>Explore more items</h3>
+        </div>
+
+        <div class="explore-items-images">
+            <div class="container">
+                <div class="row">
+                  <div class="col col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images-Catalogue\Africans\African (12).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">African</h5>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images-Catalogue\Babies\Baby Silver.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">The young ones</h5>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images-Catalogue\Hoodie\Hoodie (8).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hoodies</h5>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images-Catalogue\Casual\Casuals (10).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Casuals</h5>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images-Catalogue\Sports\Sportswear (7).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Fitness</h5>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images-Catalogue\Suit\Suit (9).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Suits</h5>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images-Catalogue\Denim\Denim (4).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Denims</h5>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images-Catalogue\Casual\Casuals (8).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">And much more</h5>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </Section>
+
+
+
+    <!-- Footer -->
+<Section id="Footer">
+    <div class="container-fluid"> <output class="bg-white shadow-sm">
+        <footer class="section-footer border-top">
+            <div class="container-fluid">
+                <section class="footer-top padding-y">
+                    <div class="row">
+                        <aside class="col-md-4">
+                            <article class="mr-3"> <img src="https://i.imgur.com/S5Zdt8L.png" class="logo-footer">
+                                <p class="mt-3 description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at massa vitae lorem eleifend pellentesque. Aenean ultrices dolor nec sagittis dictum. In pellentesque nisl metus, eu consectetur lorem molestie nec.</p>
+                                <div> <a class="btn btn-icon btn-light" title="Facebook" target="_blank" href="#" data-abc="true"><i class="fab fa-facebook-f"></i></a> <a class="btn btn-icon btn-light" title="Instagram" target="_blank" href="#" data-abc="true"><i class="fab fa-instagram"></i></a> <a class="btn btn-icon btn-light" title="Youtube" target="_blank" href="#" data-abc="true"><i class="fab fa-youtube"></i></a> <a class="btn btn-icon btn-light" title="Twitter" target="_blank" href="#" data-abc="true"><i class="fab fa-twitter"></i></a> </div>
+                            </article>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">About</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true">About us</a></li>
+                                <li> <a href="#" data-abc="true">Services</a></li>
+                                <li> <a href="#" data-abc="true">Terms & Condition</a></li>
+                                <li> <a href="#" data-abc="true">Our Blogs</a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">Services</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true">Help center</a></li>
+                                <li> <a href="#" data-abc="true">Money refund</a></li>
+                                <li> <a href="#" data-abc="true">Terms and Policy</a></li>
+                                <li> <a href="#" data-abc="true">Open dispute</a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">For users</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true"> User Login </a></li>
+                                <li> <a href="#" data-abc="true"> User register </a></li>
+                                <li> <a href="#" data-abc="true"> Account Setting </a></li>
+                                <li> <a href="#" data-abc="true"> My Orders </a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-2 col-md-2">
+                            <h6 class="title">Our app</h6> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://i.imgur.com/nkZP7fe.png" height="40"></a> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://i.imgur.com/47q2YGt.png" height="40" width="123"></a>
+                        </aside>
+                    </div>
+                    <div class="footer-copyright">
+                    <p class="float-left text-muted"> © 2022 Talkdesk All rights resetved </p>
+                    <p target="_blank" class="float-right text-muted"> <a href="#" data-abc="true">Privacy &amp; Cookies</a> &nbsp; &nbsp; <a href="#" data-abc="true">Accessibility</a> </p>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </output> </div>
+</Section>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
