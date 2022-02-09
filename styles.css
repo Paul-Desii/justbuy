@@ -144,7 +144,7 @@ margin: 8px 20px 0;
     .hero-text-div{
         position: relative;
         bottom: 85px;
-        left: 100px;
+        left: 90px;
         text-align: left;
     }
     .hero-text{
@@ -269,6 +269,12 @@ margin: 8px 20px 0;
 }
 .col{
     margin-right: px;
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        margin-left: 100px;
+    }
 }
 
 
