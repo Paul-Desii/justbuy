@@ -144,7 +144,7 @@ margin: 8px 20px 0;
     .hero-text-div{
         position: relative;
         bottom: 85px;
-        left: 90px;
+        left: 70px;
         text-align: left;
     }
     .hero-text{
@@ -273,7 +273,7 @@ margin: 8px 20px 0;
 
 @media screen and (max-width: 576px) {
     .card{
-        margin-left: 100px;
+        margin-left: 60px;
     }
 }
 
